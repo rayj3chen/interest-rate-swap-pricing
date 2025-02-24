@@ -1,18 +1,12 @@
 # Interest Rate Swap Pricing with QuantLib
 
+## Overview
+A swap is a financial derivative contract in which two parties agree to exchange cash flows or liabilities from two different financial instruments. Swaps are commonly used to hedge risks, speculate on market movements, or gain exposure to different markets. The most common type of swap is the interest rate swap, but there are many other types, including currency swaps, commodity swaps, and credit default swaps.
+
+An interest rate swap is the most common type of swap. It involves two parties exchanging interest payments based on a specified notional amount. Typically, one party pays a fixed interest rate, while the other pays a floating interest rate (e.g., LIBOR, SOFR, or Euribor). 
+
 This project demonstrates how to price an **interest rate swap** using the **QuantLib** library in Python. It includes the calculation of the Net Present Value (NPV) of the swap, analysis of the fixed and floating legs, and visualization of the yield curve.
 
----
-
-## Overview
-
-An **interest rate swap** is a financial derivative in which two parties agree to exchange interest payments based on a specified notional amount. This project uses the **QuantLib** library to:
-- Define the terms of the swap.
-- Create a yield curve for discounting cash flows.
-- Calculate the NPV of the swap.
-- Visualize the yield curve.
-
----
 
 ## Explanation of the Code
 
